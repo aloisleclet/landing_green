@@ -1,0 +1,12 @@
+.container
+{
+  width:600px;
+  margin:2rem auto;
+
+  box-shadow:2px 2px 2px -2px blue;
+
+  h1:first-child
+  {
+    color:red;
+  }
+}
