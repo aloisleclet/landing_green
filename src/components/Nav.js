@@ -14,7 +14,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               }}
               to="/"
             >
-              Home
+              Accueil
             </Link>
           </li>
           <li>
@@ -22,9 +22,9 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Generic"
+              to="/"
             >
-              Generic Page
+              Notre position
             </Link>
           </li>
           <li>
@@ -32,9 +32,47 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/Elements"
+              to="/"
             >
-              Elements
+              L'événement
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={e => {
+                onMenuToggle();
+              }}
+              to="/"
+            >
+              Notre marraine
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={e => {
+                onMenuToggle();
+              }}
+              to="/"
+            >
+              Liens et ressources
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={e => {
+                onMenuToggle();
+              }}
+              to="/"
+            >
+              Les paysans / militants / artistes 
+            </Link>
+            <Link
+              onClick={e => {
+                onMenuToggle();
+              }}
+              to="/"
+            >
+              Nous contacter
             </Link>
           </li>
         </ul>

@@ -4,50 +4,28 @@ export default function Footer() {
   return (
     <section id="footer">
       <div className="inner">
-        <h2 className="major">Get in touch</h2>
+        <h2 className="major">Nous contacter</h2>
         <p>
-          Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-          Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-          egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in
-          tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+          n’hésitez pas à vous présentez si vous souhaitez
+          prendre part à ce rassemblement !
         </p>
-        <form method="post" action="/#">
-          <div className="fields">
-            <div className="field">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field">
-              <label htmlFor="email">Email</label>
-              <input type="email" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-          </div>
-          <ul className="actions">
-            <li>
-              <input type="submit" value="Send Message" />
-            </li>
+        <form>
+          <ul className="contact">
+            <li className="fa-user">Aurelie Dauphin</li>
+            <li className="fa-envelope-o">aureliedauphin@live.fr</li>
+            <li className="fa-phone">06 07 27 02 24</li>
           </ul>
         </form>
         <ul className="contact">
-          <li className="fa-home">{config.address}</li>
-
-          <li className="fa-phone">{config.phone}</li>
-
-          {config.socialLinks.map(social => {
-            const { icon, url } = social;
-            return (
-              <li className={`${icon}`} key={url}>
-                <a href={url}>{url}</a>
-              </li>
-            );
-          })}
+          <li className="fa-user">Marine Larat</li>
+          <li className="fa-envelope-o">marine.laratpro@gmail.com</li>
+          <li className="fa-phone">07 86 36 82 56</li>
         </ul>
         <ul className="copyright">
-          <li>&copy; Solid State. All rights reserved.</li>
+          <li>&copy; tes rien sans la terre. All rights reserved.</li>
+          <li>
+            Development: <a href="https://aloisleclet.fr">Aloïs LECLET</a>
+          </li>
           <li>
             Design: <a href="http://html5up.net">HTML5 UP</a>
           </li>

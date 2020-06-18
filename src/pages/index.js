@@ -2,22 +2,19 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
+import pic1 from '../assets/images/landscapes/village.jpg';
+import pic2 from '../assets/images/landscapes/cabane_alpage.jpg';
+import pic3 from '../assets/images/artists/stephanie_bodet.jpg';
+import pic4 from '../assets/images/artists/aurelie.jpg';
+import pic5 from '../assets/images/artists/eve.jpg';
+import pic6 from '../assets/images/artists/camille_judic.jpeg';
+import pic7 from '../assets/images/artists/camille_judic.jpeg';
 
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
     <section id="banner">
       <div className="inner">
-        <div className="logo">
-          <span className="icon fa-diamond"></span>
-        </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
       </div>
@@ -30,7 +27,7 @@ const IndexPage = () => (
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Magna arcu feugiat</h2>
+            <h2 className="major">Notre position</h2>
             <p>
               Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
               turpis ante, nullam sit amet turpis non, sollicitudin posuere
@@ -39,7 +36,7 @@ const IndexPage = () => (
               cursus.
             </p>
             <a href="/#" className="special">
-              Learn more
+              En savoir plus
             </a>
           </div>
         </div>
@@ -51,7 +48,7 @@ const IndexPage = () => (
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tempus adipiscing</h2>
+            <h2 className="major">L'événement</h2>
             <p>
               Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
               turpis ante, nullam sit amet turpis non, sollicitudin posuere
@@ -60,7 +57,7 @@ const IndexPage = () => (
               cursus.
             </p>
             <a href="/#" className="special">
-              Learn more
+              Decouvrir
             </a>
           </div>
         </div>
@@ -72,7 +69,7 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
+            <h2 className="major">Notre marraine</h2>
             <p>
               Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
               turpis ante, nullam sit amet turpis non, sollicitudin posuere
@@ -81,7 +78,7 @@ const IndexPage = () => (
               cursus.
             </p>
             <a href="/#" className="special">
-              Learn more
+              En savoir plus
             </a>
           </div>
         </div>
@@ -89,7 +86,7 @@ const IndexPage = () => (
 
       <section id="four" className="wrapper alt style1">
         <div className="inner">
-          <h2 className="major">Vitae phasellus</h2>
+          <h2 className="major">Les paysans / militants / artistes</h2>
           <p>
             Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
             Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
@@ -101,59 +98,59 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={pic4} alt="" />
               </a>
-              <h3 className="major">Sed feugiat lorem</h3>
+              <h3 className="major">Aurelie</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
               </p>
               <a href="/#" className="special">
-                Learn more
+                En savoir plus
               </a>
             </article>
             <article>
               <a href="/#" className="image">
                 <img src={pic5} alt="" />
               </a>
-              <h3 className="major">Nisl placerat</h3>
+              <h3 className="major">Eve</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
               </p>
               <a href="/#" className="special">
-                Learn more
+                En savoir plus
               </a>
             </article>
             <article>
               <a href="/#" className="image">
                 <img src={pic6} alt="" />
               </a>
-              <h3 className="major">Ante fermentum</h3>
+              <h3 className="major">Camille Judic</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
               </p>
               <a href="/#" className="special">
-                Learn more
+                En savoir plus
               </a>
             </article>
             <article>
               <a href="/#" className="image">
                 <img src={pic7} alt="" />
               </a>
-              <h3 className="major">Fusce consequat</h3>
+              <h3 className="major">Marine Larat</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
                 nulla dignissim dapibus ultrices.
               </p>
               <a href="/#" className="special">
-                Learn more
+                En savoir plus
               </a>
             </article>
           </section>
           <ul className="actions">
             <li>
               <a href="/#" className="button">
-                Browse All
+                Tout voir
               </a>
             </li>
           </ul>
