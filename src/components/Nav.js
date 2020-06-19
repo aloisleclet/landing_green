@@ -22,7 +22,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/"
+              to="/position"
             >
               Notre position
             </Link>
@@ -32,7 +32,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/"
+              to="/event"
             >
               L'événement
             </Link>
@@ -42,7 +42,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/"
+              to="/godmother"
             >
               Notre marraine
             </Link>
@@ -52,7 +52,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/"
+              to="/resources"
             >
               Liens et ressources
             </Link>
@@ -62,7 +62,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/"
+              to="/actors"
             >
               Les paysans / militants / artistes 
             </Link>
@@ -70,7 +70,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/"
+              to="/#footer"
             >
               Nous contacter
             </Link>

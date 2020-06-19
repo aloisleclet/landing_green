@@ -10,24 +10,24 @@ module.exports = {
   pathPrefix: `/gatsby-starter-solidstate/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'T\'es rien sans la terre',
   subHeading: 'Regroupement d\'artiste, paysans, militants de l\'environnement le 12 juillet 2020 à Charance (05), L\'action se poursuivra par la diffusion d\'un reportage sur l\'événement',
-  // social
-  socialLinks: [
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/tesriensanslaterre',
-    },
-    {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://facebook.com/tesriensanslaterre',
-    },
-    {
-      icon: 'fa-envelope-o',
-      name: 'Email',
-      url: 'mailto:marine.laratpro@gmail.com',
-    },
-  ],
-  phone: '07 86 36 82 56',
-  address: 'Charance (05)',
+  cardGodMother : {
+    title: 'Notre marraine',
+    tagline: 'Championne d\'escalade et ecolo c\'est possible en plus elle aime le chocolat !',
+    image: '../../assets/images/landscapes/village.jpg',
+    path:'/godmother',
+  },
+  cardEvent: {
+    title: 'L\'evenement',
+    tagline: 'Championne d\'escalade et ecolo c\'est possible en plus elle aime le chocolat !',
+    image: '../../assets/images/landscapes/village.jpg',
+    path:'/event',
+
+  },
+  cardPosition: {
+    title: 'Notre Position',
+    tagline: 'fadse d\'escalade et ecolo c\'est possible en plus elle aime le chocolat !',
+    image: '../../assets/images/landscapes/village.jpg',
+    path:'/position',
+  },
+  
 };

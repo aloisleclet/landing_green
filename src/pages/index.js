@@ -4,11 +4,11 @@ import Layout from '../components/Layout';
 
 import pic1 from '../assets/images/landscapes/village.jpg';
 import pic2 from '../assets/images/landscapes/cabane_alpage.jpg';
-import pic3 from '../assets/images/artists/stephanie_bodet.jpg';
-import pic4 from '../assets/images/artists/aurelie.jpg';
-import pic5 from '../assets/images/artists/eve.jpg';
-import pic6 from '../assets/images/artists/camille_judic.jpeg';
-import pic7 from '../assets/images/artists/camille_judic.jpeg';
+import pic3 from '../assets/images/actors/stephanie_bodet.jpg';
+import pic4 from '../assets/images/actors/aurelie.jpg';
+import pic5 from '../assets/images/actors/eve.jpg';
+import pic6 from '../assets/images/actors/camille_judic.jpeg';
+import pic7 from '../assets/images/actors/camille_judic.jpeg';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -23,7 +23,7 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <a href="/#" className="image">
+          <a href="/Elements" className="image">
             <img src={pic1} alt="" />
           </a>
           <div className="content">
@@ -35,7 +35,7 @@ const IndexPage = () => (
               dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
               cursus.
             </p>
-            <a href="/#" className="special">
+            <a href="/position" className="special">
               En savoir plus
             </a>
           </div>
@@ -56,8 +56,8 @@ const IndexPage = () => (
               dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
               cursus.
             </p>
-            <a href="/#" className="special">
-              Decouvrir
+            <a href="/event" className="special">
+              Découvrir
             </a>
           </div>
         </div>
@@ -77,14 +77,14 @@ const IndexPage = () => (
               dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
               cursus.
             </p>
-            <a href="/#" className="special">
+            <a href="/godmother" className="special">
               En savoir plus
             </a>
           </div>
         </div>
       </section>
 
-      <section id="four" className="wrapper alt style1">
+      <section id="four" className="wrapper alt style1 index">
         <div className="inner">
           <h2 className="major">Les paysans / militants / artistes</h2>
           <p>
@@ -149,7 +149,7 @@ const IndexPage = () => (
           </section>
           <ul className="actions">
             <li>
-              <a href="/#" className="button">
+              <a href="/actors" className="button">
                 Tout voir
               </a>
             </li>
