@@ -2,11 +2,11 @@ import React from 'react';
 
 import config from '../../config';
 
-import picGodmother from '../assets/images/actors/stephanie_bodet.jpg';
-import picEvent from '../assets/images/landscapes/village.jpg';
 import picPosition from '../assets/images/landscapes/village.jpg';
-import picActors from '../assets/images/landscapes/village.jpg';
-import picResources from '../assets/images/landscapes/village.jpg';
+import picEvent from '../assets/images/landscapes/cabane_alpage.jpg';
+import picGodmother from '../assets/images/actors/stephanie_bodet.jpg';
+import picActors from '../assets/images/actors/aurelie.jpg';
+import picResources from '../assets/images/landscapes/chapelle.jpg';
 
 export default function Card(props) {
 
