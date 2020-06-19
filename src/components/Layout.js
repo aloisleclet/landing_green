@@ -6,6 +6,8 @@ import { StaticQuery, graphql } from 'gatsby';
 import '../assets/sass/main.scss';
 import Footer from './Footer';
 import SideBar from './Sidebar';
+import picOg from '../assets/images/landscapes/mouflons.jpg';
+
 
 class Layout extends Component {
   constructor(props) {
@@ -46,8 +48,14 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Solid State' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'description', content: 'Regroupement d\'artiste, paysans, militants de l\'environnement le 12 juillet 2020 à Charance (05), L\'action se poursuivra par la diffusion d\'un reportage sur l\'événement'},
+                { name: 'keywords', content: 'paysan militant militants environnement charance 05 reportage evenement' },
+                { name: 'og:title', content: 'Regroupement d\'artistes, paysans et militants de l\'environnement' },
+                { name: 'og:description', content: 'Regroupement d\'artiste, paysans, militants de l\'environnement le 12 juillet 2020 à Charance (05), L\'action se poursuivra par la diffusion d\'un reportage sur l\'événement'},
+                { name: 'og:image', content: picOg },
+                { name: 'og:url', content: 'https://tesriensanslaterre.com' },
+                { name: 'og:type', content: 'article' },
+                { name: 'og:locale', content: 'fr_FR' },
               ]}
             >
               <html lang="en" />
