@@ -11,7 +11,7 @@ const IndexPage = () => (
       <header>
         <div className="inner">
           <h2>Liens et ressources</h2>
-          <p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+          <p>Pour mieux comprendre la problématique</p>
         </div>
       </header>
 
@@ -42,6 +42,22 @@ Nous disons NON à un système qui parle d’écologie mais privilégie les ferm
           </a>
           <br/>
           <br/>
+
+          <h3>L'article de verdura</h3>
+          <a href="http://www.vedura.fr/economie/agriculture/impact-elevage-bovins-environnement">
+            http://www.vedura.fr/economie/agriculture/impact-elevage-bovins-environnement
+          </a>
+          <br/>
+          <br/>
+
+          <h3>L'article de greenpeace</h3>
+          <a href="https://www.greenpeace.fr/bretagne-les-algues-vertes-proliferent-letat-laisse-faire/#:~:text=Les%20algues%20vertes%20polluent%20chaque,et%20de%20la%20flore%20aquatiques.&text=Autre%20exemple%3A%20la%20mort%20d,o%C3%B9%20les%20algues%20vertes%20pullulent.">
+           https://www.greenpeace.fr/bretagne-les-algues-vertes-proliferent-letat-laisse-faire/#:~:text=Les%20algues%20vertes%20polluent%20chaque,et%20de%20la%20flore%20aquatiques.&text=Autre%20exemple%3A%20la%20mort%20d,o%C3%B9%20les%20algues%20vertes%20pullulent.
+          </a>
+          <br/>
+          <br/>
+      
+
           <section className="features">
     
             <Card type='actors'/>

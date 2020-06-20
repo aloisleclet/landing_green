@@ -10,6 +10,11 @@ import pic5 from '../assets/images/actors/eve.jpg';
 import pic6 from '../assets/images/actors/camille_judic.jpeg';
 import pic7 from '../assets/images/actors/camille_judic.jpeg';
 
+//pics members
+import picAgribio from '../assets/images/actors/agribio.jpg';
+import picPaysans from '../assets/images/actors/paysans.png';
+
+
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -29,11 +34,10 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Notre position</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              Nous sommes unis:
+              pour la protection de notre eau, de notre air pur et la qualité de nos vies,
+              pour des modes de productions paysans respectueux de l'environnement et du bien être animal,
+              pour une consommation éthique, locale et responsable dont les paysans puissent vivre.
             </p>
             <a href="/position" className="special">
               En savoir plus
@@ -50,11 +54,7 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">L'événement</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              Concrétisation de notre réflexion
             </p>
             <a href="/event" className="special">
               Découvrir
@@ -69,13 +69,9 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Notre marraine</h2>
+            <h2 className="major">Nos parrains et marraines</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              Ils nous font confiance
             </p>
             <a href="/godmother" className="special">
               En savoir plus
@@ -86,66 +82,49 @@ const IndexPage = () => (
 
       <section id="four" className="wrapper alt style1 index">
         <div className="inner">
-          <h2 className="major">Les paysans / militants / artistes</h2>
+          <h2 className="major">Les membres</h2>
           <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+            Ils ont rejoint le mouvement
           </p>
           <section className="features">
+
             <article>
               <a href="/#" className="image">
                 <img src={pic4} alt="" />
               </a>
               <h3 className="major">Aurelie</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Artistes du cirque du Soleil
               </p>
               <a href="/#" className="special">
                 En savoir plus
               </a>
             </article>
+
             <article>
               <a href="/#" className="image">
-                <img src={pic5} alt="" />
+                <img src={picAgribio} alt="" />
               </a>
-              <h3 className="major">Eve</h3>
+              <h3 className="major">Agribio</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
               </p>
               <a href="/#" className="special">
                 En savoir plus
               </a>
             </article>
+
             <article>
               <a href="/#" className="image">
-                <img src={pic6} alt="" />
+                <img src={picPaysans} alt="" />
               </a>
-              <h3 className="major">Camille Judic</h3>
+              <h3 className="major">Paysan.es du 05</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
               </p>
               <a href="/#" className="special">
                 En savoir plus
               </a>
             </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic7} alt="" />
-              </a>
-              <h3 className="major">Marine Larat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                En savoir plus
-              </a>
-            </article>
+
           </section>
           <ul className="actions">
             <li>

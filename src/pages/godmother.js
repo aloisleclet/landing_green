@@ -5,45 +5,68 @@ import Card from '../components/Card';
 
 import config from '../../config';
 
+//pics
+
+import picStephanie from '../assets/images/actors/eve.jpg';
+import picVincent from '../assets/images/actors/eve.jpg';
+import picJean from '../assets/images/actors/eve.jpg';
+
 const IndexPage = () => (
   <Layout fullMenu>
     <section id="wrapper">
       <header>
         <div className="inner">
-          <h2>Notre marraine</h2>
-          <p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+          <h2>Nos parrains et marraines</h2>
+          <p>Ils nous soutiennent !</p>
         </div>
       </header>
 
       <div className="wrapper">
         <div className="inner">
-          <h3 className="major">Notre marraine</h3>
-          <blockquote>
-Nous disons NON à un système qui parle d’écologie mais privilégie les fermes-usines plutôt que l’agriculture paysanne respectueuse de l’environnement.<br/><br/>
-          </blockquote>
-          <blockquote>
-Nous disons NON à un système qui parle d’écologie mais privilégie les fermes-usines plutôt que l’agriculture paysanne respectueuse de l’environnement.<br/><br/>
-          </blockquote>
-          <blockquote>
-Nous disons NON à un système qui parle d’écologie mais privilégie les fermes-usines plutôt que l’agriculture paysanne respectueuse de l’environnement.<br/><br/>
-          </blockquote>
-          <blockquote>
-Nous disons NON à un système qui parle d’écologie mais privilégie les fermes-usines plutôt que l’agriculture paysanne respectueuse de l’environnement.<br/><br/>
-          </blockquote>
-          <blockquote>
-Nous disons NON à un système qui parle d’écologie mais privilégie les fermes-usines plutôt que l’agriculture paysanne respectueuse de l’environnement.<br/><br/>
-          </blockquote>
-          <blockquote>
-Nous disons NON à un système qui parle d’écologie mais privilégie les fermes-usines plutôt que l’agriculture paysanne respectueuse de l’environnement.<br/><br/>
-          </blockquote>
-
+          <h3 className="major">Nos parrains et marraines</h3>
+          
           <section className="features">
-    
-            <Card type='actors'/>
-            
-            <Card type='event'/>
 
+            <article>
+              <a href="/#" className="image">
+                <img src={picStephanie} alt="" />
+              </a>
+              <h3 className="major">Stéphanie Bodet</h3>
+              <p>
+                écrivaine et championne d'escalade
+              </p>
+              <a href="/#" className="special">
+                En savoir plus
+              </a>
+            </article>
+            
+            <article>
+              <a href="/#" className="image">
+                <img src={picVincent} alt="" />
+              </a>
+              <h3 className="major">Vincent Munier</h3>
+              <p>
+                photographe animalier
+              </p>
+              <a href="/#" className="special">
+                En savoir plus
+              </a>
+            </article>
+            
+            <article>
+              <a href="/#" className="image">
+                <img src={picJean} alt="" />
+              </a>
+              <h3 className="major">Jean-François Noblet</h3>
+              <p>
+                écologiste
+              </p>
+              <a href="/#" className="special">
+                En savoir plus
+              </a>
+            </article>
           </section>
+
         </div>
       </div>
     </section>

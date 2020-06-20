@@ -44,7 +44,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               }}
               to="/godmother"
             >
-              Notre marraine
+              Notre parrains et marraines
             </Link>
           </li>
           <li>
@@ -64,7 +64,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               }}
               to="/actors"
             >
-              Les paysans / militants / artistes 
+              Les membres
             </Link>
             <Link
               onClick={e => {

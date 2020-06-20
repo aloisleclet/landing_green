@@ -14,16 +14,16 @@ export default function Card(props) {
   if (props.type == 'godmother')
   {
     current.path = '/godmother';
-    current.title = 'Notre marraine';
+    current.title = 'Nos parrains et marraines';
     current.image = picGodmother;
-    current.tagline = 'Championne d\'escalade elle aime manger du chocolat et c\'est pas tout';  
+    current.tagline = 'Ils nous font confiance';  
   }
   else if (props.type == 'event')
   {
     current.path = '/event';
     current.title = 'L\'événement';
     current.image = picEvent;
-    current.tagline = 'event Championne d\'escalade elle aime manger du chocolat et c\'est pas tout';  
+    current.tagline = 'Concrétisation de notre réflexion';  
     
   }
   else if (props.type == 'position')
@@ -37,9 +37,9 @@ export default function Card(props) {
   else if (props.type == 'actors')
   {
     current.path = '/actors';
-    current.title = 'Les paysans / militants / artistes';
+    current.title = 'Les membres';
     current.image = picActors;
-    current.tagline = 'actors Championne d\'escalade elle aime manger du chocolat et c\'est pas tout';  
+    current.tagline = 'Ils nous soutiennent';  
     
   }
   else if (props.type == 'resources')
@@ -47,7 +47,7 @@ export default function Card(props) {
     current.path = '/resources';
     current.title = 'Lien et ressources';
     current.image = picResources;
-    current.tagline = 'resourcesChampionne d\'escalade elle aime manger du chocolat et c\'est pas tout';  
+    current.tagline = 'Pour mieux comprendre la problématique';  
     
   }
   else if (props.type == 'custom')

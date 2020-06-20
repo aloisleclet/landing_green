@@ -13,16 +13,11 @@ export default function Footer() {
         </p>
         <form>
           <ul className="contact">
-            <li className="fa-user">Aurelie Dauphin</li>
-            <li className="fa-envelope-o">aureliedauphin@live.fr</li>
+            <li className="fa-envelope-o">tesriensanslaterre@gmail.com</li>
             <li className="fa-phone">06 07 27 02 24</li>
+            <li className="fa-phone">07 86 36 82 56</li>
           </ul>
         </form>
-        <ul className="contact">
-          <li className="fa-user">Marine Larat</li>
-          <li className="fa-envelope-o">marine.laratpro@gmail.com</li>
-          <li className="fa-phone">07 86 36 82 56</li>
-        </ul>
         <ul className="copyright">
           <li>&copy; tes rien sans la terre. All rights reserved.</li>
           <li>
