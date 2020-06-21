@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
+
 //intoductions
 import picPosition from '../assets/images/landscapes/village.jpg';
 import picEvent from '../assets/images/landscapes/cabane_alpage.jpg';

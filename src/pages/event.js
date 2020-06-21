@@ -1,8 +1,9 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import Card from '../components/Card';
 
+import Card from '../components/Card';
+import OsmMap from '../components/OsmMap';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -19,8 +20,7 @@ const IndexPage = () => (
           <h3 className="major">L'événement</h3>
           <p>Parcours artistique et paysan le 12 juillet 2020 à partir de 11h dans le parc de Charance (05) </p>
 
-
-          <h1>TODO : map</h1>
+          <OsmMap lat="44.582580" lng="6.059617" text="Domaine de Charance" />
 
           <section className="features">
 
