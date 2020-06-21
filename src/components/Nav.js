@@ -44,7 +44,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               }}
               to="/godmother"
             >
-              Notre parrains et marraines
+              Nos parrains et marraines
             </Link>
           </li>
           <li>

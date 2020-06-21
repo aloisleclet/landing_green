@@ -33,8 +33,7 @@ const IndexPage = () => (
               </a>
               <h3 className="major">Stéphanie Bodet</h3>
               <p>
-                Grimpeuse et écrivaine Haute Alpine qui s’engage régulièrement dans des
-                actions militantes et dans la valorisation de la simplicité
+                Grimpeuse et écrivaine Haute Alpine régulièrement engagée dans des actes militants et dans la valorisation de la simplicité
               </p>
               <a href="https://fr.wikipedia.org/wiki/St%C3%A9phanie_Bodet" target="_blank" rel="noreferrer" className="special">
                 En savoir plus
@@ -47,8 +46,7 @@ const IndexPage = () => (
               </a>
               <h3 className="major">Vincent Munier</h3>
               <p>
-                Photographe animalier qui s’emploie à montrer la beauté de la nature
-                sauvage et à mettre en lumière des espèces animales menacées
+                Photographe animalier dont l’œuvre met en lumière la beauté de la nature sauvage et les espèces animales menacées
               </p>
               <a href="https://fr.wikipedia.org/wiki/Vincent_Munier" target="_blank" rel="noreferrer" className="special">
                 En savoir plus
@@ -61,8 +59,7 @@ const IndexPage = () => (
               </a>
               <h3 className="major">Jean-François Noblet</h3>
               <p>
-                Scientifique, objecteur de conscience pour la rigolade, l’amour, la
-                nature, la liberté, l’humanisme et la paresse
+                Scientifique, objecteur de conscience pour la rigolade, l’amour, la nature, la liberté, l’humanisme et la paresse 
               </p>
               <a href="http://ecologienoblet.fr/" target="_blank" rel="noreferrer" className="special">
                 En savoir plus

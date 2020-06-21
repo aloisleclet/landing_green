@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="inner">
         <h2 className="major">Nous contacter</h2>
         <p>
-          n’hésitez pas à vous présentez si vous souhaitez
+          n’hésitez pas à vous présenter si vous souhaitez
           prendre part à ce rassemblement !
         </p>
         <form>
