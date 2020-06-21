@@ -61,12 +61,12 @@ export default function Card(props) {
   
   return (
      <article>
-       <a href={current.path} className="image" target="_blank" rel="noreferrer" >
+       <a href={current.path} className="image">
          <img src={current.image} alt="" />
        </a>
        <h3 className="major">{current.title}</h3>
        <p>{current.tagline}</p>
-       <a href={current.path} className="special" target="_blank" rel="noreferrer" >
+       <a href={current.path} className="special">
          En savoir plus
        </a>
      </article>
