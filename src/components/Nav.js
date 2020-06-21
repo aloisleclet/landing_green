@@ -62,7 +62,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/actors"
+              to="/#actors"
             >
               Les membres
             </Link>

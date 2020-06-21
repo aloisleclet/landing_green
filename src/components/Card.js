@@ -31,7 +31,7 @@ export default function Card(props) {
     current.path = '/position';
     current.title = 'Notre position';
     current.image = picPosition;
-    current.tagline = 'position Championne d\'escalade elle aime manger du chocolat et c\'est pas tout';  
+    current.tagline = 'Un espace pour ceux qui produisent avec l\'écologie';  
     
   }
   else if (props.type == 'actors')
@@ -61,12 +61,12 @@ export default function Card(props) {
   
   return (
      <article>
-       <a href={current.path} className="image">
+       <a href={current.path} className="image" target="_blank" rel="noreferrer" >
          <img src={current.image} alt="" />
        </a>
        <h3 className="major">{current.title}</h3>
        <p>{current.tagline}</p>
-       <a href={current.path} className="special">
+       <a href={current.path} className="special" target="_blank" rel="noreferrer" >
          En savoir plus
        </a>
      </article>
