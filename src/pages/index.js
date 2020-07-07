@@ -38,6 +38,9 @@ const IndexPage = () => (
             <p>
                 A l’heure où l’écologie est au cœur de la parole publique et des campagnes de marketing, il est temps d'agir concrètement en faveur de l’environnement. Notre évènement a pour but de créer un espace d’expression pour les personnes qui produisent de façon écologique
             </p>
+            <a href="https://youtu.be/nWhnCU20-LY" target="_blank" rel="noreferrer" className="special">
+              Visionner le teaser
+            </a>
             <a href="/position" className="special">
               En savoir plus
             </a>

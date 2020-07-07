@@ -18,9 +18,9 @@ const IndexPage = () => (
       <div className="wrapper">
         <div className="inner">
           <h3 className="major">L'événement</h3>
-          <p>Parcours artistique et paysan le 12 juillet 2020 à partir de 11h dans le parc de Charance (05) </p>
+          <p>Parcours artistique et paysan le 12 juillet 2020 à partir de 11h au d'eau des iscles (05) </p>
 
-          <OsmMap lat="44.582580" lng="6.059617" text="Domaine de Charance" />
+          <OsmMap lat="47.358760" lng="2.435320" text="Plan d'eau des iscles" />
 
           <section className="features">
 
