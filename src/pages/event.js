@@ -4,8 +4,10 @@ import Layout from '../components/Layout';
 
 import Card from '../components/Card';
 import OsmMap from '../components/OsmMap';
+import Video from '../components/Video';
+import ReactPlayer from 'react-player';
 
-const IndexPage = () => (
+const EventPage = () => (
   <Layout fullMenu>
     <section id="wrapper">
       <header>
@@ -21,6 +23,14 @@ const IndexPage = () => (
           <p>Parcours artistique et paysan le 12 juillet 2020 à partir de 11h au d'eau des iscles (05) </p>
 
           <OsmMap lat="47.358760" lng="2.435320" text="Plan d'eau des iscles" />
+          
+          <br/>
+          <br/>
+          <h3 className="major">Le reportage et les rencontres</h3>
+          <p>L'événement en images</p>
+
+          <Video url="https://youtu.be/AuALX0LKc4M" /> 
+          <Video url="https://youtu.be/vfYoB0JGhRQ" /> 
 
           <section className="features">
 
@@ -35,4 +45,4 @@ const IndexPage = () => (
   </Layout>
 );
 
-export default IndexPage;
+export default EventPage;
