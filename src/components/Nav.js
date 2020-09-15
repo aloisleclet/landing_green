@@ -34,7 +34,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               }}
               to="/event"
             >
-              L'événement
+              Evénement à venir 
             </Link>
           </li>
           <li>
@@ -42,9 +42,9 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/godmother"
+              to="/interviews"
             >
-              Nos parrains et marraines
+              Interviews & reportages
             </Link>
           </li>
           <li>

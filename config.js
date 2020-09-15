@@ -9,5 +9,5 @@ module.exports = {
   manifestIcon: 'src/assets/images/website-icon.png',
   pathPrefix: `/tesriensanslaterre/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'T\'es rien sans la terre',
-  subHeading: 'Regroupement d\'artistes, paysans, militants de l\'environnement le 12 juillet 2020 au plan d\'eau des iscles (05), L\'action se poursuivra par la diffusion d\'un reportage sur l\'événement',
+  subHeading: 'Mouvement qui rassemble artistes et acteurs locaux de la défense environnementale par des reportages et des événements qui visent à sensibiliser le grand public et obtenir la prise d’actions concrètes par les politiques publiques.',
 };
