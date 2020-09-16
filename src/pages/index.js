@@ -32,7 +32,7 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <h2>{config.heading}</h2>
-        <p>Mouvement qui rassemble artistes et acteurs locaux de la défense environnementale par des reportages et des événements qui visent à sensibiliser le grand public et obtenir la prise d’actions concrètes par les politiques publiques.</p>
+        <p>Mouvement qui rassemble artistes et acteurs locaux de la défense environnementale par des reportages et des évènements qui visent à sensibiliser le grand public et obtenir la prise d’actions concrètes par les politiques publiques.</p>
       </div>
     </section>
 
@@ -63,7 +63,7 @@ const IndexPage = () => (
             <img src={picEvent} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Evénement à venir</h2>
+            <h2 className="major">Évènement à venir</h2>
             <p>
               Le 13 Septembre 2020 au plan d’eau d’Embrun : marché de producteurs bio, artisans et associations engagées de 10h à 17h.
 Conférence de presse artistique à 15H : 10 communes aux côtés des artistes pour bâtir le monde écologique de demain.

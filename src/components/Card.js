@@ -11,17 +11,19 @@ import picResources from '../assets/images/landscapes/chapelle.jpg';
 export default function Card(props) {
 
   let current = {};
-  if (props.type == 'godmother')
+
+  if (props.type == 'interviews')
   {
-    current.path = '/godmother';
-    current.title = 'Nos parrains et marraines';
-    current.image = picGodmother;
-    current.tagline = 'Ils nous font confiance';  
+    current.path = '/interviews';
+    current.title = 'Interviews & reportages';
+    current.image = picEvent;
+    current.tagline = 'Quelques retours sur nos évènements ...';  
+    
   }
   else if (props.type == 'event')
   {
     current.path = '/event';
-    current.title = 'L\'événement';
+    current.title = 'Les évènements';
     current.image = picEvent;
     current.tagline = 'Concrétisation de notre réflexion';  
     
@@ -37,9 +39,9 @@ export default function Card(props) {
   else if (props.type == 'actors')
   {
     current.path = '/actors';
-    current.title = 'Les membres';
+    current.title = 'Les partenaires';
     current.image = picActors;
-    current.tagline = 'Ils nous soutiennent';  
+    current.tagline = 'Ils se sont investis pour des événements passés ou à venir.';  
     
   }
   else if (props.type == 'resources')

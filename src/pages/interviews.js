@@ -29,6 +29,14 @@ const IndexPage = () => (
             <Video url="https://www.youtube.com/watch?v=AuALX0LKc4M" />
             <p>Reportage de Denis Bois de l'événement de "T'es rien sans la Terre" du 12 Juillet 2020 au plan d'eau de Veynes. Des artistes au service de l'environnement auprès d'agriculteurs locaux et d'associations du 05. </p>
           </section>
+          
+          <section className="features">
+    
+            <Card type='actors'/>
+            
+            <Card type='event'/>
+
+          </section>
 
         </div>
       </div>

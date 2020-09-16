@@ -5,7 +5,6 @@ Simple landing page for an association
 ## todo
 
 -check card featured in bottom of each page godmother need to be delete and replaced
--add images from aurelie
 -say to the difference between video and plaquette 9/10 h
 -check all page no error please
 

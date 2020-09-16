@@ -7,7 +7,9 @@ import OsmMap from '../components/OsmMap';
 import Video from '../components/Video';
 import ReactPlayer from 'react-player';
 
-import picPlaquette from '../assets/images/plaquette.png';
+import picPlaquette from '../assets/images/event/plaquette.png';
+import picPresse1 from '../assets/images/event/presse1.jpg';
+import picPresse2 from '../assets/images/event/presse2.jpg';
 
 const EventPage = () => (
   <Layout fullMenu>
@@ -33,7 +35,8 @@ const EventPage = () => (
           <h5>La presse en parle :</h5>
           <a href="https://www.ledauphine.com/environnement/2020/09/13/hautes-alpes-ils-prennent-des-arretes-anti-pesticides?fbclid=IwAR39zjPwtI8_YtD_69CVYci-JJMTiG-FscVjub10dq5fe8wtjWiYQMRslDU" target="_blank" rel="noreferrer">Interview Dauphine</a> 
           <br/>
-          <a href="" target="_blank" rel="noreferrer">Interview d'ici TV</a>
+          <a href="https://www.dici.fr/actu/2020/09/13/hautes-alpes-artistes-politiques-associatifs-unis-embrun-contre-pesticides-1439874?fbclid=IwAR39zjPwtI8_YtD_69CVYci-JJMTiG-FscVjub10dq5fe8wtjWiYQMRslDU
+" target="_blank" rel="noreferrer">Interview d'ici TV</a>
           <br/>
           <br/>
           <h5>Ce sera ici: </h5>
@@ -69,10 +72,15 @@ Car les agriculteurs sont ceux qui souffrent le plus des pesticides, et la trans
           <p>
 Côté associations, la SAPN, la Confédération Paysanne et les Coquelicots étaient présents pour s’engager aux côtés de T’es rien sans la Terre. Unies, ces associations vont poursuivre leur travail de façon collaborative pour donner une suite à cette conférence. Car le travail ne s’arrête pas là, tout est encore à faire pour convaincre les autres communes de suivre le mouvement, et ça commence bien puisque le lendemain de la conférence, la commune de Barcillonnette a annoncé vouloir y prendre part. Le but est aussi de dépasser les frontières du département, car comme l’a rappelé Aurélie, « la Terre ne connaît pas de frontières, l’écologie non plus ».
           </p>
+          <br/>
+          <br/>
+          <h5>La presse en parle :</h5>
+          <img src={picPresse1} />
+          <img src={picPresse2} />
 
           <section className="features">
 
-            <Card type='godmother'/>
+            <Card type='resources'/>
             
             <Card type='position'/>
 

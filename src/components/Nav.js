@@ -34,7 +34,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               }}
               to="/event"
             >
-              Evénement à venir 
+              Évènement à venir 
             </Link>
           </li>
           <li>
@@ -64,7 +64,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               }}
               to="/#actors"
             >
-              Les membres
+              Les partenaires
             </Link>
             <Link
               onClick={e => {
