@@ -83,7 +83,7 @@ Conférence de presse artistique à 15H : 10 communes aux côtés des artistes 
           <div className="content">
             <h2 className="major">Interviews et reportages</h2>
             <p>
-              En amont de l'événement : "T'es rien sans la Terre" à Veynes (05) le 12 Juillet 2020 nous sommes allées à la rencontre des parrains ainsi que des agriculteurs afin de recueillir leurs réflexions et connaissances. 
+             Quelques retours sur nos évènements ... 
             </p>
             <a href="/interviews" className="special">
               En savoir plus
