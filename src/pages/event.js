@@ -16,7 +16,7 @@ const EventPage = () => (
     <section id="wrapper">
       <header>
         <div className="inner">
-          <h2>Les évènement</h2>
+          <h2>Les évènements</h2>
           <p>Concrétisation de notre réflexion</p>
         </div>
       </header>
