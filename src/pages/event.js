@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
+
 import Layout from '../components/Layout';
 
 import Card from '../components/Card';
@@ -10,6 +13,24 @@ import ReactPlayer from 'react-player';
 import picPlaquette from '../assets/images/event/plaquette.png';
 import picPresse1 from '../assets/images/event/presse1.jpg';
 import picPresse2 from '../assets/images/event/presse2.jpg';
+import pic1 from '../assets/images/event/slideshow/1.jpg';
+import pic2 from '../assets/images/event/slideshow/2.jpg';
+import pic3 from '../assets/images/event/slideshow/3.jpg';
+import pic4 from '../assets/images/event/slideshow/4.jpg';
+import pic5 from '../assets/images/event/slideshow/5.jpg';
+import pic6 from '../assets/images/event/slideshow/6.jpg';
+import pic7 from '../assets/images/event/slideshow/7.jpg';
+import pic8 from '../assets/images/event/slideshow/8.jpg';
+import pic9 from '../assets/images/event/slideshow/9.jpg';
+import pic10 from '../assets/images/event/slideshow/10.jpg';
+import pic11 from '../assets/images/event/slideshow/11.jpg';
+import pic12 from '../assets/images/event/slideshow/12.jpg';
+
+const slideImg = [
+  '../assets/images/event/slideshow/1.jpg',
+  '../assets/images/event/slideshow/1.jpg',
+  '../assets/images/event/slideshow/1.jpg',
+];
 
 const EventPage = () => (
   <Layout fullMenu>
@@ -72,6 +93,25 @@ Car les agriculteurs sont ceux qui souffrent le plus des pesticides, et la trans
           <p>
 Côté associations, la SAPN, la Confédération Paysanne et les Coquelicots étaient présents pour s’engager aux côtés de T’es rien sans la Terre. Unies, ces associations vont poursuivre leur travail de façon collaborative pour donner une suite à cette conférence. Car le travail ne s’arrête pas là, tout est encore à faire pour convaincre les autres communes de suivre le mouvement, et ça commence bien puisque le lendemain de la conférence, la commune de Barcillonnette a annoncé vouloir y prendre part. Le but est aussi de dépasser les frontières du département, car comme l’a rappelé Aurélie, « la Terre ne connaît pas de frontières, l’écologie non plus ».
           </p>
+          <br/>
+          <br/>
+          <h5>Quelques photos: </h5>
+          <div className="slide-container">
+            <Slide duration="4000">
+              <div className="each-slide"><img src={pic1}/></div>
+              <div className="each-slide"><img src={pic2}/></div>
+              <div className="each-slide"><img src={pic3}/></div>
+              <div className="each-slide"><img src={pic4}/></div>
+              <div className="each-slide"><img src={pic5}/></div>
+              <div className="each-slide"><img src={pic6}/></div>
+              <div className="each-slide"><img src={pic7}/></div>
+              <div className="each-slide"><img src={pic8}/></div>
+              <div className="each-slide"><img src={pic9}/></div>
+              <div className="each-slide"><img src={pic10}/></div>
+              <div className="each-slide"><img src={pic11}/></div>
+              <div className="each-slide"><img src={pic12}/></div>
+            </Slide>
+          </div>
           <br/>
           <br/>
           <h5>La presse en parle :</h5>

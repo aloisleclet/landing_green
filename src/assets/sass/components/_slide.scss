@@ -1,0 +1,23 @@
+
+.each-slide
+{
+  display: flex;
+  justify-content: center;
+}
+
+.each-slide > img {
+  object-fit:cover;
+}
+
+
+.default-nav
+{
+  opacity:0;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
